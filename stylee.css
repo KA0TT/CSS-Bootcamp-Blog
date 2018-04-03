@@ -1,0 +1,51 @@
+/*border color: #bdc3c7 date color: #3498db h2 color: #2c3e50 font: source sans pro font-family: 'Quintessential',
+cursive;
+font-family: 'Montaga',
+serif;*/
+
+body {
+    border: 20px solid slategray;
+    background: antiquewhite;
+    padding: 20px;
+    max-width: 700px;
+    width: 80%;
+    margin: 20px auto;
+    text-align: justify;
+}
+
+h2 {
+    font-family: 'Quintessential', cursive;
+    letter-spacing: .25rem;
+    font-weight: bolder;
+    font-size: 2rem;
+}
+
+.quote {
+    font-family: 'Montaga', serif;
+    border-left: 5px solid slategray;
+    padding-left: 5px;
+}
+
+hr {
+    color: slategray;
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+.date {
+    font-family: 'Montaga', serif;
+    color: dodgerblue;
+    letter-spacing: 0.225rem;
+    text-transform: uppercase;
+    font-weight: bolder;
+    margin-top: 25px;
+}
+
+p {
+    font-family: 'Montaga', serif;
+}
+
+.post {
+    margin: 20px;
+}
